@@ -1,20 +1,15 @@
-
-
 // ==UserScript==
 // @name        whatcd gazelle direct thumbnails
-// @include     /https?://www\.empornium\.(me|sx)/torrents\.php.*/
-// @exclude     /https?://www\.empornium\.(me|sx)/torrents\.php\?id.*/
-// @include     /https?://www\.empornium\.(me|sx)/user\.php.*/
-// @include     /https?://www\.empornium\.(me|sx)/top10\.php.*/
-// @include     /https?://www\.empornium\.(me|sx)/collages\.php.*/
-// @include     /https?://femdomcult\.org/torrents\.php.*/
-// @exclude     /https?://femdomcult\.org/torrents\.php\?id.*/
-// @include     /https?://femdomcult\.org/user\.php.*/
-// @include     /https?://femdomcult\.org/top10\.php.*/
-// @include     /https?://pornbay\.org/torrents\.php.*/
-// @exclude     /https?://pornbay\.org/torrents\.php\?id.*/
-// @include     /https?://pornbay\.org/user\.php.*/
-// @include     /https?://pornbay\.org/top10\.php.*/
+// @match http://*.empornium.me/*
+// @match https://*.empornium.me/*
+// @match http://empornium.me/*
+// @match https://empornium.me/*
+// @match http://*.empornium.sx/*
+// @match https://*.empornium.sx/*
+// @match http://empornium.sx/*
+// @match https://empornium.sx/*
+// @match http://pornbay.org/*
+// @match https://pornbay.org/*
 // @version     10
 // @require     http://code.jquery.com/jquery-2.1.1.js
 // @grant       GM_addStyle
