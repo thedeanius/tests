@@ -1,15 +1,17 @@
 // ==UserScript==
 // @name        whatcd gazelle direct thumbnails
-// @match http://*.empornium.me/*
-// @match https://*.empornium.me/*
-// @match http://empornium.me/*
-// @match https://empornium.me/*
-// @match http://*.empornium.sx/*
-// @match https://*.empornium.sx/*
-// @match http://empornium.sx/*
-// @match https://empornium.sx/*
-// @match http://pornbay.org/*
-// @match https://pornbay.org/*
+// @include     /https?://www\.empornium\.(me|sx|is)/torrents\.php.*/
+// @exclude     /https?://www\.empornium\.(me|sx|is)/torrents\.php\?id.*/
+// @include     /https?://www\.empornium\.(me|sx|is)/user\.php.*/
+// @include     /https?://femdomcult\.org/torrents\.php.*/
+// @exclude     /https?://femdomcult\.org/torrents\.php\?id.*/
+// @include     /https?://femdomcult\.org/user\.php.*/
+// @include     /https?://www\.cheggit\.me/torrents\.php.*/
+// @exclude     /https?://www\.cheggit\.me/torrents\.php\?id.*/
+// @include     /https?://www\.cheggit\.me/user\.php.*/
+// @include     /https?://pornbay\.org/torrents\.php.*/
+// @exclude     /https?://pornbay\.org/torrents\.php\?id.*/
+// @include     /https?://pornbay\.org/user\.php.*/
 // @version     10
 // @require     http://code.jquery.com/jquery-2.1.1.js
 // @grant       GM_addStyle
